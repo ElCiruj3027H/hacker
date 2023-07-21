@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+  
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: black;
+}
+header{
+    margin: 0 auto;
+    padding: 0em;
+    align-items: center;
+    display: flex;
+    flex: 50%;
+    background-color: hsla(0, 0%, 0%, .4);
+
+}
+.navbar{
+    display: flex;
+    flex-direction: wrap;
+    text-align: center;
+    margin-left: 70%;
+}
+nav ul{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+}
+section{
+    display: flex;
+}
+.btn-1{
+    background-color: black;
+    margin-block-start: 40%;
+    margin-left: 50%;
+}
+.btn-1:hover{
+  box-shadow: 0px 0px 1em #a7a7a7;
+}
+a{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+}
+.edades:hover{
+    color: rgb(254, 208, 151);
+}
+.edades{
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    text-decoration: none;
+}
+.lista{
+    margin-left: 20px;
+    
+    list-style: none;
+}
+h1{
+    color: bisque;
+    margin: auto;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container img{
+  width: 250px;
+  height: 200px;
+    align-items: center;
+    border-radius: 15px;
+   
+}
+.container{
+   display: flex;
+   flex: 50%;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 70px;
+  
+
+ 
+
+   
+}.carta{
+
+
+    text-align: center;
+margin: auto;
+margin-top: 10px;
+padding: auto;
+
+    width: 250px;
+    
+}
+
+p{
+    color: white;
+    opacity: 0%;
+    background-color: hsl(0, 0%, 100%, .4);
+    border-radius: 15px;
+    padding: 10px;
+}
+h4{
+    color: white;
+    opacity: 0;
+}
+a{
+    color: white;
+    opacity: 100%;
+}
+.carta:hover p{
+    opacity: 100%;
+    margin-top: 20px;
+    transition: 0.8s;
+}
+.carta:hover h4{
+    opacity: 100%;
+    margin-top: 10px;
+    transition: 0.8s;
+}
+.carta:hover .boton {
+  margin: auto;
+    opacity: 100%;
+    margin-top: 25px;
+    transition: 0.7s;
+     }
+
+.boton{
+    background-color: hsl(0, 0%, 100%, .4);
+    padding: 8px;
+    color: black;
+    border-radius: 40px;
+    text-decoration: none;
+    opacity: 0;
+}.boton:hover{
+    color: antiquewhite;
+}.not{
+    color: bisque;
+    margin: auto;
+    font-size: 30px;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}img:hover{
+
+    box-shadow: 0px 0px 50px 5px rgb(255, 255, 255);
+}
